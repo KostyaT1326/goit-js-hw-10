@@ -1,0 +1,76 @@
+@import url('modern-normalize/modern-normalize.css');
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+@import url('./back-link.css');
+
+@import url('izitoast/dist/css/iziToast.min.css');
+
+/* node_modules */
+
+.snackbar-section {
+  padding-top: 36px;
+}
+.timer-label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  font: var(--font-text);
+
+  margin-bottom: 16px;
+}
+
+.timer-label input {
+  font: var(--font-text);
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+}
+.timer-label input:hover {
+  border: 1px solid #000;
+}
+.timer-label input:focus {
+  border: 1px solid #4e75ff;
+}
+
+.promise-function {
+  font: var(--font-text);
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080; /*stroke*/
+  width: 362px;
+  height: 66px;
+  padding: 24px 48px 8px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+.promise-function:hover {
+  stroke: #000;
+}
+
+.button-submit {
+  font: var(--font-button);
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  transition: background-color 0.3s ease;
+}
+.button-submit:hover {
+  background: #6c8cff;
+}
+
+.iziToast {
+  width: 340px;
+}
+.iziToast > .iziToast-body {
+  padding: 0;
+}

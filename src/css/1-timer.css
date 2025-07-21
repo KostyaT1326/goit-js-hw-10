@@ -1,0 +1,57 @@
+@import url('modern-normalize/modern-normalize.css');
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+@import url('./back-link.css');
+
+@import url('flatpickr/dist/flatpickr.min.css');
+@import url('izitoast/dist/css/iziToast.min.css');
+
+/* node_modules */
+
+.timer-section {
+  margin-top: 36px;
+}
+#datetime-picker {
+  font: var(--font-text);
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  background: #fff;
+  padding: 8px 16px;
+  margin-right: 8px;
+  margin-bottom: 32px;
+}
+#datetime-picker:hover {
+  border: 1px solid #000;
+}
+#datetime-picker:active {
+  border: 1px solid #4e75ff;
+}
+.button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  color: #fff;
+  background: #4e75ff;
+}
+.button:hover {
+  background: #6c8cff;
+}
+.timer {
+  display: flex;
+  column-gap: 24px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.value {
+  font: var(--font-timer);
+}
+.label {
+  font: var(--font-text);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Timer</title>
+    <link rel="stylesheet" href="./css/1-timer.css" />
+  </head>
+  <body>
+    <load src="./partials/back-link.html" />
+
+    <section class="timer-section">
+      <div class="container">
+        <input class="js-input" type="text" id="datetime-picker" />
+        <button class="button js-button" type="button" data-start>Start</button>
+
+        <div class="timer">
+          <div class="field">
+            <span class="value js-value" data-days>00</span>
+            <span class="label">Days</span>
+          </div>
+          <div class="field">
+            <span class="value js-value" data-hours>00</span>
+            <span class="label">Hours</span>
+          </div>
+          <div class="field">
+            <span class="value js-value" data-minutes>00</span>
+            <span class="label">Minutes</span>
+          </div>
+          <div class="field">
+            <span class="value js-value" data-seconds>00</span>
+            <span class="label">Seconds</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="./js/1-timer.js"></script>
+  </body>
+</html>
